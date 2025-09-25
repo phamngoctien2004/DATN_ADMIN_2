@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import "swiper/swiper-bundle.css"; // hoặc "swiper/css" tùy phiên bản
 import "simplebar-react/dist/simplebar.min.css";
+import 'antd/dist/reset.css';
 
 import App from "./App.tsx";
 import { AppWrapper } from "./components/common/PageMeta.tsx";
